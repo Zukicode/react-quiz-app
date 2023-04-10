@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-quiz-app/static/css/main.3e713db4.css",
+    "main.js": "/react-quiz-app/static/js/main.5e48cbf3.js",
+    "static/media/96884-groundhog-day-cartoon-facial-expression-whiskers-for-ecards.png": "/react-quiz-app/static/media/96884-groundhog-day-cartoon-facial-expression-whiskers-for-ecards.b19e2b6a534013673834.png",
+    "index.html": "/react-quiz-app/index.html",
+    "main.3e713db4.css.map": "/react-quiz-app/static/css/main.3e713db4.css.map",
+    "main.5e48cbf3.js.map": "/react-quiz-app/static/js/main.5e48cbf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e713db4.css",
+    "static/js/main.5e48cbf3.js"
+  ]
+}
