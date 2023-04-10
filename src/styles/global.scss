@@ -1,0 +1,20 @@
+@use './normalize.scss';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Nunito', sans-serif;
+	background-color: #a41b1b;
+}
+
+div,
+span,
+button,
+ul,
+li {
+	font-family: 'Nunito', sans-serif;
+}

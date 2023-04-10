@@ -1,0 +1,44 @@
+.result {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	z-index: -1;
+
+	&.active {
+		opacity: 1;
+		transition: all 1s;
+		z-index: 1;
+	}
+
+	p {
+		font-weight: 700;
+		color: #3e3636;
+
+		span {
+			color: #d72323;
+		}
+	}
+
+	button {
+		padding: 10px 20px;
+		border-radius: 12px;
+		border: none;
+		background-color: #d72323;
+		color: #f5eded;
+		font-weight: 700;
+		font-size: 15px;
+		cursor: pointer;
+		transition: all 0.4s;
+
+		&:hover {
+			transition: all 0.4s;
+			box-shadow: 0px 0px 10px #d72323;
+		}
+	}
+}

@@ -1,0 +1,52 @@
+.app {
+	width: 500px;
+	height: 100%;
+	min-height: 300px;
+	background-color: #f5eded;
+	border-radius: 12px;
+	position: relative;
+	padding: 20px;
+
+	@media (max-width: 530px) {
+		width: 400px;
+	}
+
+	@media (max-width: 430px) {
+		width: 350px;
+	}
+
+	@media (max-width: 360px) {
+		width: 300px;
+	}
+
+	@media (max-width: 300px) {
+		width: 270px;
+	}
+
+	&:before,
+	&:after {
+		content: '';
+		display: block;
+		height: 50px;
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: -1;
+	}
+
+	&:before {
+		width: 95%;
+		bottom: -10px;
+		background-color: #f5eded;
+		z-index: -1;
+	}
+
+	&:after {
+		width: 90%;
+		bottom: -20px;
+		background-color: rgba(#f5eded, 0.3);
+		z-index: -2;
+	}
+}
